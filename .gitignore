@@ -1,0 +1,23 @@
+# design-agent is part of this repo. Its curated entries are tracked; its inbox is not.
+codex/skills/design-agent/library/inbox/*
+!codex/skills/design-agent/library/inbox/.gitkeep
+codex/skills/design-agent/node_modules/
+codex/skills/design-agent/.lavish-axi/
+
+# machine-specific, never committed
+.zshrc.local
+.gitconfig.local
+*.bak.*
+
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
